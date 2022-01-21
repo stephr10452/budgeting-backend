@@ -31,7 +31,7 @@ res.json(remove[0]);
 
 })
 
-bookmarks.put("/:index", (req, res)=>{
+transactionRoute.put("/:index", (req, res)=>{
     let { index } = req.params;
 
     if(!data[index]){
